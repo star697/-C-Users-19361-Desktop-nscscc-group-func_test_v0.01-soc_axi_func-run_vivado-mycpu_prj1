@@ -1,5 +1,5 @@
 # Set the project name and design file name
-set project_name my_project
+set project_name mycpu
 set design_file \Desktop_mycpu.xpr
 
 # Set the output file name
