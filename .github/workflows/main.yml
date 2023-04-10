@@ -1,6 +1,6 @@
 # Set the project name and design file name
 set project_name mycpu
-set design_file vivado-mycpu_prj1/mycpu.xpr
+set design_file \Desktop_mycpu.xpr
 
 # Set the output file name
 set output_file mycpu.xpr
