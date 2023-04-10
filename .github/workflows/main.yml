@@ -1,6 +1,6 @@
 # Set the project name and design file name
 set project_name mycpu
-set design_file C-Users-19361-Desktop-nscscc-group-func_test_v0.01-soc_axi_func-run_vivado-mycpu_prj1/mycpu.xpr
+set design_file vivado-mycpu_prj1/mycpu.xpr
 
 # Set the output file name
 set output_file mycpu.xpr
