@@ -2,17 +2,19 @@
 set project_name mycpu
 set design_file C:/Users/19361/Desktop_mycpu.v
 
+# Check if the project is already open
+if { [get_projects] eq "" } {
+  # If the project is not open, open it
+  open_project $project_name.xpr
+}
+
 # Set the output file name
 set output_file mycpu.xpr
 
 # Set the refresh interval in seconds
 set refresh_interval 5
 
-# Check if the project is already open
-if { [get_projects] eq "" } {
-  # If the project is not open, open it
-  open_project $project_name.xpr
-}
+
 
 # Loop forever, refreshing every $refresh_interval seconds
 while {1} {
