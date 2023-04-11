@@ -1,0 +1,22 @@
+name: Vivado Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+      
+    - name: Install Vivado
+      uses: nxfury/setup-vivado@v1.0.1
+      
+    - name: Run Tcl Script
+      run: |
+        vivado -mode batch -source script.tcl myproject.xpr
