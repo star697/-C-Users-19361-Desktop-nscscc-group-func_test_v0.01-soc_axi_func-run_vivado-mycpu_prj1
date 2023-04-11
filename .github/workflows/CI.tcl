@@ -1,7 +1,7 @@
 vivado -mode tcl
 open_project mycpu.xpr
 -source script.tcl mycpu.xpr
-update_compile_order -fileset sources_1
+update_compile_order -fileset SampleCPU
 set simulations [get_fileset $env(SIMULATION)]
 if { [llength simulations] != 0} {
  foreach sim $simulations {
