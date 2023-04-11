@@ -8,15 +8,17 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     
     steps:
     - name: Checkout Code
       uses: actions/checkout@v2
       
     - name: Install Vivado
-      uses: Xilinx/setup-vivado@v1.8.4
-      
+      uses: Xilinx/fpga-tool-permissions@master
+      with:
+        tool: vivado
+    
     - name: Run Tcl Script
       run: |
-        vivado -mode batch -source script.tcl mycpu.xpr
+        vivado.bat -mode batch -source script.tcl mycpu.xpr
