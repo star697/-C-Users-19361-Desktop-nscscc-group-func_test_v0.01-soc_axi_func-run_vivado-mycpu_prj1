@@ -19,4 +19,4 @@ jobs:
       
     - name: Run Tcl Script
       run: |
-        vivado -mode batch -source script.tcl myproject.xpr
+        vivado -mode batch -source script.tcl mycpu.xpr
