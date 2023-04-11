@@ -1,0 +1,29 @@
+# ----- REMOVE LINES ABOVE HERE --------------------------
+#
+# This license is valid from Sat Apr 08 13:35:44 UTC 2023.
+#
+# This is license NODELOCKED to HOSTID=ANY;
+# there is no need to run lmgrd for this license.
+#
+#
+# This is a permanent license generated on Sat Apr 08 13:35:44 UTC 2023
+INCREMENT SDK xilinxd 2024.04 permanent uncounted 26B32483C500 \
+VENDOR_STRING=193617040@qq.com,SDK,software,permanent,_212696784_0_0_060 \
+HOSTID=ANY ISSUER="Xilinx Inc" START=08-Apr-2023 TS_OK
+#
+# This is a permanent license generated on Sat Apr 08 13:35:44 UTC 2023
+INCREMENT V_WebPACK xilinxd 2024.04 permanent uncounted D2669590DA9B \
+VENDOR_STRING=193617040@qq.com,V_WebPACK,software,permanent,_212696784_0_0_846 \
+HOSTID=ANY ISSUER="Xilinx Inc" START=08-Apr-2023 TS_OK
+#
+# This is a permanent license generated on Sat Apr 08 13:35:44 UTC 2023
+INCREMENT Analyzer xilinxd 2024.04 permanent uncounted 52ABD6030DAA \
+VENDOR_STRING=193617040@qq.com,Analyzer,software,permanent,_212696784_0_0_802 \
+HOSTID=ANY ISSUER="Xilinx Inc" START=08-Apr-2023 TS_OK
+#
+# This is a permanent license generated on Sat Apr 08 13:35:44 UTC 2023
+INCREMENT HLS xilinxd 2024.04 permanent uncounted E339BCFB6E53 \
+VENDOR_STRING=193617040@qq.com,HLS,software,permanent,_212696784_0_0_646 \
+HOSTID=ANY ISSUER="Xilinx Inc" START=08-Apr-2023 TS_OK
+#
+# ----- REMOVE LINES BELOW HERE --------------------------
