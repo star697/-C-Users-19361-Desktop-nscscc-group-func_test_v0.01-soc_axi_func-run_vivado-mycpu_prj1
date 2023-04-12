@@ -20,7 +20,7 @@ jobs:
 curl -o Xilinx_Unified_2019.2_1106_2127_Win64.exe "https://www.xilinx.com/bin/public/openDownload?filename=Xilinx_Unified_2019.2_1106_2127_Win64.exe"
 
 # 运行安装程序并同意协议
-Xilinx_Unified_2019.2_1106_2127_Win64.exe /quiet /noRestart ACCEPT_EULA=1
+start /B Xilinx_Unified_2019.2_1106_2127_Win64.exe /quiet /noRestart ACCEPT_EULA=1
       
       - name: Add Vivado to PATH
         run: |
