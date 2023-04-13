@@ -21,7 +21,7 @@ jobs:
       - name: Run Tcl Script
         run: |
           # 进入工作目录
-          cd <path-to-workspace>.
+          cd "<path-to-workspace>"
 
           # 打开vivado并执行Tcl脚本
           vivado -mode batch -source <path-to-script>: ./scripts
