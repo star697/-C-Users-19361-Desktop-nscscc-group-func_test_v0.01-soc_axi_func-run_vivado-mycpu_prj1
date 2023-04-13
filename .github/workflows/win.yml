@@ -13,5 +13,15 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
-        
+        - name: Add Vivado to PATH
+  run: |
+    echo 'export PATH="$PATH:/tools/Xilinx/Vivado/2019.2/bin"' >> $GITHUB_ENV
+
+- name: Run Tcl Script
+  run: |
+    # 进入工作目录
+    cd <path-to-workspace>
+
+    # 打开vivado并执行Tcl脚本
+    vivado -mode batch -source <path-to-script>/script.tcl mycpu.xpr
 
